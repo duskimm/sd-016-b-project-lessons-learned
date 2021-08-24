@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
 /*1. Adicione uma cor de fundo específica para a página*/
 body {
     background-color: rgb(253, 251, 251);
     margin: 0%;
+    font-family: 'Kaisei Tokumin', serif;
+    color: rgb(53, 53, 53);
+    font-size: 16px;
+    font-variant: normal;
+    line-height: normal;
 }
 
 /*2. Adicione uma barra superior com um título*/
@@ -32,21 +39,47 @@ body {
 
 /*6. Adicione um rodapé para a página*/
 #rodape {
+    text-align: inherit;
+    height: 140px;
     background-color: #036b52;
-    border-bottom: 1px solid #2fc18c;
+    border-bottom: 10px solid #2fc18c;
 }
 
 /*7. Insira pelo menos um link externo na página*/
 .trybe_link {
-    display: block;
-    margin: 50%;
-    padding: 50px;
-
+    position: static;
+    float: left;
+    margin: 30px;
+    padding-left: 34px;
+    box-sizing: border-box;
 }
 
 /*8. Crie um artigo sobre seu aprendizado*/
 
+/*9. Crie uma seção que conta uma passagem sobre seu aprendizado*/
+
+/*10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles*/
+
+/*11. Teste a semântica da sua página está aprovada pelo site CodeSniffer*/
 
 
+/*BÔNUS*/
+/*12. Adicione uma tabela à página*/
 
+
+/*13. Utilize o Box model*/
+/*espalhado*/
+
+/*14. Altere atributos relacionados as fontes*/
+/*body*/
+
+/*15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro*/
+
+.lado-esquerdo {
+
+}
+
+.lado-direito {
+
+}
 
