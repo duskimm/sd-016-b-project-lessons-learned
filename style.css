@@ -1,6 +1,7 @@
 /*1. Adicione uma cor de fundo específica para a página*/
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0%;
 }
 
 /*2. Adicione uma barra superior com um título*/
@@ -28,6 +29,24 @@ body {
 #licoes_a_aprender {
     display: inline-block;
 }
+
+/*6. Adicione um rodapé para a página*/
+#rodape {
+    background-color: #036b52;
+    border-bottom: 1px solid #2fc18c;
+}
+
+/*7. Insira pelo menos um link externo na página*/
+.trybe_link {
+    display: block;
+    margin: 50%;
+    padding: 50px;
+
+}
+
+/*8. Crie um artigo sobre seu aprendizado*/
+
+
 
 
 
