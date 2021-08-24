@@ -1,0 +1,33 @@
+/*1. Adicione uma cor de fundo específica para a página*/
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+/*2. Adicione uma barra superior com um título*/
+#cabecalho, #titulo {
+    top: 0%;
+    text-align: center;
+}
+
+/*3. Adicione uma foto sua à página*/
+#minha_foto {
+    width: 25%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(48, 48, 48, 0.363);
+    display: block;
+}
+
+/*4. Adicione uma lista de lições aprendidas à página*/
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+/*5. Crie uma lista de lições que ainda deseja aprender para a página*/
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+
+
