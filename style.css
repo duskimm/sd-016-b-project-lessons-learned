@@ -11,7 +11,6 @@ body {
     line-height: normal;
 }
 
-
 /*2. Adicione uma barra superior com um título*/
 #cabecalho {
     background-color: #036b52;
@@ -42,7 +41,6 @@ h1 {
     color: green;
 }
 
-
 /*nav*/
 #links > a:link, a:active {
     display: inline-block;
@@ -59,7 +57,6 @@ h1 {
 #links > a:hover, a:active {
     background-color: #2fc18c;
 }
-
 
 /*3. Adicione uma foto sua à página*/
 #minha_foto {
@@ -101,6 +98,7 @@ h1 {
     height: 140px;
     background-color: #036b52;
     border-bottom: 10px solid #2fc18c;
+    margin-top: 100px;
 }
 
 /*7. Insira pelo menos um link externo na página*/
@@ -133,16 +131,12 @@ h1 {
 
 /*15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro*/
 
-#artigos-lado-lado {
-    display: inline-block;
-    margin-bottom: 100px;
-}
-
 .lado-esquerdo {
     display: inline-block;
     background-color: rgba(211, 211, 211, 0.349);
     width: 500px;
     padding: 50px;
+    padding-top: 70px;
     margin-top: 150px;
     margin-left: 140px;
     border-radius: 30px;
@@ -157,4 +151,3 @@ h1 {
     margin-left: 150px;
     border-radius: 30px;
 }
-
