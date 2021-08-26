@@ -1,48 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
-
-body{
-  background-color: #fdfbfb;
-
-  font-family: 'Kaisei Tokumin', serif;
-  color: rgb(53, 53, 53);
+body {
+  background-color: white;
+  font-family: sans-serif;
+  color: darkgray;
   font-size: 16px;
   font-variant: normal;
   line-height: normal;
 }
 
-#cabecalho{
-  background-color: #036b52;
-  border-bottom: 7px solid #2fc18c;
+#cabecalho {
+  background-color: rgb(3, 107, 82);
+  border-bottom: 7px solid lightgreen;
   width: 100%;
   height: 100px;
-  top: 0px;
-  left: 0px;
+  top: 0.1px;
+  left: 0.1px;
   display: flex;
   position: fixed;
   z-index: 10;
 }
 
-#titulo{
+#titulo {
   color: white;
   margin-top: 25px;
   margin-left: 140px;
 }
 
-#nome{
+#nome {
   color: green;
   top: 600px;
   left: 190px;
   position: relative;
 }
 
-h1{
+h1 {
   color: green;
 }
 
-#links > a:link, a:active{
+#links a:link , #links a:active {
   display: inline-block;
-  background-color: #fff;
-  color: #fff;
+  background-color: white;
+  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -51,49 +48,49 @@ h1{
   border-radius: 60px;
 }
 
-#links > a:hover, a:active {
-  background-color: #2fc18c;
+#links a:hover , #links a:active {
+  background-color: lightgreen;
 }
 
-#minha_foto{
+#minha_foto {
   width: 25%;
   border-radius: 10%;
   border-style: solid;
   border-width: 5px;
-  border-color: #00000059;
+  border-color: grey;
   margin-top: 150px;
   margin-left: 100px;
   display: flex;
-  position: absolute;    
+  position: absolute;
 }
 
-.licoes{
-  border: green solid;
+.licoes {
+  border: lightgreen solid;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   display: inline-block;
   margin-left: 700px;
   margin-top: 130px;
   line-height: 30px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   display: inline-block;
   padding-left: 15%;
   padding-top: 3%;
   line-height: 30px;
 }
 
-#rodape{
+#rodape {
   text-align: inherit;
   height: 140px;
-  background-color: #036b52;
-  border-bottom: 10px solid #2fc18c;
+  background-color: green;
+  border-bottom: 10px solid lightgreen;
   margin-top: 100px;
 }
 
-.trybe_link{
+.trybe_link {
   position: static;
   float: left;
   margin: 30px;
@@ -101,9 +98,9 @@ h1{
   box-sizing: border-box;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
-  background-color: #d3d3d359;
+  background-color: darkgray;
   width: 500px;
   padding: 50px;
   padding-top: 70px;
@@ -112,9 +109,9 @@ h1{
   border-radius: 30px;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
-  background-color: #d3d3d359;
+  background-color: darkgray;
   width: 186px;
   padding: 50px;
   margin: 20px;
@@ -122,59 +119,59 @@ h1{
   border-radius: 30px;
 }
 
-*{
+* {
   font-family: sans-serif;
   list-style: none;
-  padding: 0px;
+  padding: 0.1px;
 }
 
-.minhaSkill{
+.minhaSkill {
   display: inline-block;
   width: 400px;
   margin: 60px auto;
   color: white;
-  background: rgb(53, 53, 53);
+  background: darkgray;
   padding: 20px;
   margin-left: 140px;
 }
 
-.minhaSkill li{
+.minhaSkill li {
   margin: 20px 0;
 }
 
-.bar{
-  background: #353b48;
+.bar {
+  background: lightsteelblue;
   display: block;
   height: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.300);
+  border: 1px solid darkgray;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 10px #2187e7b3;
+  box-shadow: 0 0 10px lightskyblue;
 }
 
-.bar span{
+.bar span {
   height: 2px;
   float: left;
-  background: #2187e7;
+  background: lightskyblue;
 }
 
-.unix{
+.unix {
   width: 90%;
   animation: 2s;
 }
 
-.git{
+.git {
   width: 50%;
 }
 
-.github{
+.github {
   width: 70%;
 }
 
-.empatia{
+.empatia {
   width: 30%;
 }
 
-.html{
+.html {
   width: 100%;
 }
