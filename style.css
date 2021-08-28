@@ -1,10 +1,11 @@
 body {
   background-color: white;
   font-family: sans-serif;
-  color: darkgray;
+  color: black;
   font-size: 16px;
   font-variant: normal;
   line-height: normal;
+  margin: 0.01px;
 }
 
 #cabecalho {
@@ -27,7 +28,7 @@ body {
 
 #nome {
   color: green;
-  top: 600px;
+  top: 580px;
   left: 190px;
   position: relative;
 }
@@ -44,7 +45,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   margin-top: 25px;
-  margin-left: 200px;
+  margin-left: 180px;
   border-radius: 60px;
 }
 
@@ -58,7 +59,7 @@ h1 {
   border-style: solid;
   border-width: 5px;
   border-color: grey;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 100px;
   display: flex;
   position: absolute;
@@ -71,7 +72,7 @@ h1 {
 #licoes_aprendidas {
   display: inline-block;
   margin-left: 700px;
-  margin-top: 130px;
+  margin-top: 80px;
   line-height: 30px;
 }
 
@@ -85,9 +86,11 @@ h1 {
 #rodape {
   text-align: inherit;
   height: 140px;
-  background-color: green;
+  background-color: rgb(3, 107, 82);
   border-bottom: 10px solid lightgreen;
   margin-top: 100px;
+
+  position: static;
 }
 
 .trybe_link {
@@ -100,8 +103,8 @@ h1 {
 
 .lado-esquerdo {
   display: inline-block;
-  background-color: darkgray;
-  width: 500px;
+  background-color: rgba(102, 102, 102, 0.212);
+  width: 600px;
   padding: 50px;
   padding-top: 70px;
   margin-top: 150px;
@@ -111,12 +114,18 @@ h1 {
 
 .lado-direito {
   display: inline-block;
-  background-color: darkgray;
+  background-color: rgba(102, 102, 102, 0.212);
   width: 186px;
   padding: 50px;
   margin: 20px;
-  margin-left: 150px;
+  margin-left: 50px;
   border-radius: 30px;
+}
+
+.skills {
+  background-color: rgba(102, 102, 102, 0.212);
+  margin-top: 100px;
+  background-size: 1366px;
 }
 
 * {
@@ -129,8 +138,7 @@ h1 {
   display: inline-block;
   width: 400px;
   margin: 60px auto;
-  color: white;
-  background: darkgray;
+  color: rgb(0, 0, 0);
   padding: 20px;
   margin-left: 140px;
 }
@@ -140,9 +148,9 @@ h1 {
 }
 
 .bar {
-  background: lightsteelblue;
+  background-color: rgba(0, 110, 255, 0.151);
   display: block;
-  height: 2px;
+  height: 5px;
   border: 1px solid darkgray;
   border-radius: 3px;
   overflow: hidden;
@@ -150,14 +158,13 @@ h1 {
 }
 
 .bar span {
-  height: 2px;
+  height: 5px;
   float: left;
-  background: lightskyblue;
+  background-color: rgb(0, 0, 255);
 }
 
 .unix {
   width: 90%;
-  animation: 2s;
 }
 
 .git {
@@ -173,5 +180,26 @@ h1 {
 }
 
 .html {
+  width: 100%;
+}
+
+.css3 {
+  width: 90%;
+  animation: 2s;
+}
+
+.slack {
+  width: 50%;
+}
+
+.zoom {
+  width: 70%;
+}
+
+.inspect {
+  width: 30%;
+}
+
+.semantica {
   width: 100%;
 }
