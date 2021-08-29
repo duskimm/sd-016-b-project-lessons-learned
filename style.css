@@ -114,7 +114,7 @@ h1 {
 
 #links a:link , #links a:active {
   display: inline-block;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: white;
   padding: 10px 50px;
   text-align: center;
