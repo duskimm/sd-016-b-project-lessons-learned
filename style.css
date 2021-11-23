@@ -8,3 +8,11 @@ body {
   top: 0px;
   position: fixed;
 }
+
+#titulo {
+  font-size: 20px;
+}
+
+#minha_foto {
+  width: 300px;
+}
